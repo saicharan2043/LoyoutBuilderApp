@@ -14,3 +14,9 @@
   font-size: 30px;
   color: #475569;
 }
+
+@media (max-width: 767px) {
+  .Footer-container {
+    width: 98%;
+  }
+}

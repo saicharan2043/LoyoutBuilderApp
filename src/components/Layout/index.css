@@ -9,5 +9,10 @@
   padding: 20px;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: red;
+}
+
+@media (max-width: 767px) {
+  .container-of-layout {
+    width: 100%;
+  }
 }
