@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.container-body {
+  display: flex;
+  width: 80%;
+  margin-bottom: 8px;
+  background-color: green;
+  flex-grow: 2;
+}
+
+.left-navber-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e2e8f0;
+  padding: 30px;
+  padding-top: 20px;
+  width: 30%;
+}
+
+.heading-left-navbar {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.un-order {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: 100%;
+  padding: 0px;
+}
+
+.list {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #64748b;
+  margin-bottom: 7px;
+  list-style: none;
+  width: 100%;
+}
+
+.context-container {
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-color: #cbd5e1;
+  width: 30%;
+}
+
+.heading-context {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #64748b;
+  margin-bottom: 7px;
+}
+
+.nav-bar-right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #cbd5e1;
+  width: 30%;
+}
+
+.heading-right-nav {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.box {
+  width: 80%;
+  border: 1px solid #475569;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.box-content {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #64748b;
+}
